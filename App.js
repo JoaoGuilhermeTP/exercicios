@@ -1,7 +1,7 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import ExerciciosScreen from './screens/ExerciciosScreen';
+import DiaScreen from './screens/DiaScreen';
 import { NavigationContainer } from '@react-navigation/native';
 
 
@@ -12,7 +12,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Exercícios" component={ExerciciosScreen} />
+        <Tab.Screen name="Novo Exercício" component={ExerciciosScreen} />
+        <Tab.Screen name="Inserir no Treino" component={DiaScreen} />
       </Tab.Navigator>
     </NavigationContainer>
 

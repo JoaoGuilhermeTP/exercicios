@@ -1,0 +1,20 @@
+{
+    "regioes": [
+        { "name": "Peito" },
+        { "name": "Costas" },
+        { "name": "Tríceps" },
+        { "name": "Bíceps" },
+        { "name": "Pernas" },
+        { "name": "Ombros" },
+        { "name": "Gluteos" }
+    ],
+    "diasDaSemana": [
+        { "name": "Segunda" },
+        { "name": "Terça" },
+        { "name": "Quarta" },
+        { "name": "Quinta" },
+        { "name": "Sexta" },
+        { "name": "Sábado" },
+        { "name": "Domingo" }
+    ]
+}
